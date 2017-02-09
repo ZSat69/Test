@@ -1,0 +1,33 @@
+pwd - current working directory
+ls - lists all files in the current dir
+clear
+cd - for navigation
+cd / - root directory
+cp - to copy file [ cp filename newfilename]
+rm - to delete file in current folder
+ls -a listas all files including hidden
+ls / lists the root 
+touch file.txt - to create a new file
+cat file.txt - to display the contents of the file
+mv filename foldername - to move a file to a folder
+man commandname - to get help
+nano filename - to edit a file
+Ctrl R to everse serach last entered command
+Ctrl a to navigate to the strat of the command
+Ctrl e to naviagte to the end of the command
+head - gives the 1st 10 lines of the file
+tail - gives the last 10 lines of the file
+shutdown -h to halt
+shutdown -r to restart
+shutdown - h +30 to halt in 30 mins
+poweroff or init 0
+init 6 to restart
+who 
+w - lists the users logged in
+top - lists the program with cpu
+netstat -tupln
+sudo netstat -tupln
+ln -s filename filelink - creates a link to a file
+ls -l 
+
+sudo apt-get htop - to monitor the users

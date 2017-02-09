@@ -1,0 +1,10 @@
+sudo apt-get install mongodb
+
+sudo apt-get update
+
+mongo
+
+use mydb;
+
+db.employeedetails.insert({name:"sat",sal:1000});
+db.employeedetails.find();
