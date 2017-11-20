@@ -4,5 +4,5 @@ AUE-AZ-VM-ASC01 ansible_host=172.00.10.4 ansible_ssh_private_key=~/.ssh/id_rsa  
 
 [windows]
 
-AUE-66193-WIN01 ansible_host=172.00.10.68
+WIN01 ansible_host=172.00.10.68
 
