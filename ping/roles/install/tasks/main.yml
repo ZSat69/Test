@@ -1,0 +1,23 @@
+---
+# tasks file for install
+
+
+- name: Install multiple packages
+  win_chocolatey:
+    name: '{{ item }}'
+    state: present
+  with_items:
+  - notepadplusplus.install
+  - winmerge
+  - 7zip.install
+  - treesizefree
+  - filezilla
+  - queryexplus  
+  - winscp
+
+- name: Install IIS Web-Server with sub features and management tools
+  win_feature:
+    name: Web-Ftp-Server, Web-Server 
+    state: present
+    reboot_required: True
+    include_sub_features: True

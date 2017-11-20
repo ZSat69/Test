@@ -1,0 +1,10 @@
+
+---
+
+- hosts: windows
+  gather_facts: true
+  connection: localhost
+
+  roles:
+    - { role: roles/copy }
+

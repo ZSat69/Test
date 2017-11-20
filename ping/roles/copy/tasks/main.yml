@@ -1,0 +1,7 @@
+---
+# tasks file for copy
+
+- name: Download earthrise.jpg to specified path
+  win_get_url:
+      url: https://aueassystpackages.blob.core.windows.net/windowspackages/windowsbuildpackagev03.zip
+      dest: c:\windowsbuildpackagev03.zip
